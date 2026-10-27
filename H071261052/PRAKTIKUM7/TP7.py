@@ -55,7 +55,7 @@ def buat_invoice(nama_kasir, waktu, id_transaksi, produk,
 
     try:
         with open(path_file, "x") as file:
-            file.write("TOKO NABILA".center(LEBAR) + "\n")
+            file.write("TOKO VIRA".center(LEBAR) + "\n")
             file.write("=" * LEBAR + "\n")
             file.write(f"Nama Kasir      : {nama_kasir}\n")
             file.write(
